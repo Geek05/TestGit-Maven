@@ -9,6 +9,9 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
+/**
+ This is Rest API Testing Class
+*/
 public class RESTAPITest {
 	
 	private static Logger log = LogManager.getLogger(RESTAPITest.class.getName());
