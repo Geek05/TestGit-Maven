@@ -2,7 +2,6 @@ package org.test.rest;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.test.mobile.AppiumTest;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -12,6 +11,8 @@ import io.restassured.response.Response;
 public class RESTAPITest {
 	
 	private static Logger log = LogManager.getLogger(RESTAPITest.class.getName());
+	
+	//This is from ServicePack1
 	
 	@Test
 	public void testJIRA() {
