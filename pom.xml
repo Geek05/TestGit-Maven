@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.bharath.test</groupId>
   <artifactId>TestGIT</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <profiles>
 		<profile>
 			<id>Regression</id>

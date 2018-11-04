@@ -12,7 +12,7 @@ public class RESTAPITest {
 	
 	private static Logger log = LogManager.getLogger(RESTAPITest.class.getName());
 	
-	//This is from ServicePack1
+	//This is from ServicePack2
 	
 	@Test
 	public void testJIRA() {
