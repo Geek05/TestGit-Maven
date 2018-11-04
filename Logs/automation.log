@@ -1,0 +1,6 @@
+12:09:29.536 [main] INFO  org.test.rest.RESTAPITest - info Test JIRA
+12:09:29.541 [main] DEBUG org.test.rest.RESTAPITest - debug Test JIRA
+12:09:33.979 [main] INFO  org.test.rest.RESTAPITest - Test Twitter
+12:12:48.176 [main] INFO  org.test.rest.RESTAPITest - info Test JIRA
+12:12:48.181 [main] DEBUG org.test.rest.RESTAPITest - debug Test JIRA
+12:12:52.955 [main] INFO  org.test.rest.RESTAPITest - Test Twitter

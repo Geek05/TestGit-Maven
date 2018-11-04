@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4845" started-at="2018-10-09T06:42:48Z" finished-at="2018-10-09T06:42:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4845" started-at="2018-10-09T06:42:48Z" finished-at="2018-10-09T06:42:52Z">
+      <class name="org.test.rest.RESTAPITest">
+        <test-method status="PASS" signature="testJIRA()[pri:0, instance:org.test.rest.RESTAPITest@74e52303]" name="testJIRA" duration-ms="28" started-at="2018-10-09T06:42:48Z" finished-at="2018-10-09T06:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJIRA -->
+        <test-method status="PASS" signature="testOpenRestAPI()[pri:0, instance:org.test.rest.RESTAPITest@74e52303]" name="testOpenRestAPI" duration-ms="4751" started-at="2018-10-09T06:42:48Z" finished-at="2018-10-09T06:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenRestAPI -->
+        <test-method status="PASS" signature="testTwitter()[pri:0, instance:org.test.rest.RESTAPITest@74e52303]" name="testTwitter" duration-ms="11" started-at="2018-10-09T06:42:52Z" finished-at="2018-10-09T06:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwitter -->
+      </class> <!-- org.test.rest.RESTAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
