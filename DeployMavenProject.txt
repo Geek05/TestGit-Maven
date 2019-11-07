@@ -1,0 +1,49 @@
+
+
+https://www.baeldung.com/maven-deploy-nexus
+Maven Deploy to Nexus | Baeldung
+Maven Deploy to Nexus - The Nexus Snapshot Repository in the pom and how to set up the Deployment Process.
+
+In "/Users/xyz/.m2"  create "settings.xml" and the content is:
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+<distributionManagement>
+       <snapshotRepository>
+           <id>snapshots</id>
+           <url>http://garepos.xyz.com:8080/nexus/content/repositories/xyz-snapshots</url>
+       </snapshotRepository>
+       <repository>
+           <id>releases</id>
+           <name>Internal Releases</name>
+           <url>http://garepos.xyz.com:8080/nexus/content/repositories/xyz-releases</url>
+       </repository>
+   </distributionManagement>
+  <servers>
+     <server>
+       <id>releases</id>
+       <username>deployment</username>
+       <password>xyz123</password>
+     </server>
+     <server>
+       <id>snapshots</id>
+       <username>deployment</username>
+       <password>xyz123</password>
+     </server>
+     <server>
+       <id>upload-releases-php-maven-org</id>
+       <username>deployment</username>
+       <password>xyz123</password>
+     </server>
+     <server>
+       <id>upload-snapshots-php-maven-org</id>
+       <username>deployment</username>
+       <password>xyz123</password>
+     </server>
+  </servers>
+</settings>
+
+Command:
+mvn clean deploy -Dmaven.test.skip=true
